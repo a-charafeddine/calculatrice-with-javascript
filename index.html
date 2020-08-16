@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="./js/script.js" defer></script>
+    <title>Calculatrice avec JavaScript</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Calculatrice
+            <span class="logo-js"></span>
+        </h1>
+    </header>
+    <div class="container-calculator">
+        <div class="container-calculator__block container-calculator__block--top">
+            <input type="number" id="numberInput" class="input_number"/>
+            <div class="container-btn">
+                <button type="button" id="btn_add" class="btn btn_add">+</button>
+                <button type="button" id="btn_soustract" class="btn btn_soustract">-</button>
+                <button type="button" id="btn_multiple" class="btn btn_multiple">*</button>
+                <button type="button" id="btn_divise" class="btn btn_divise">/</button>
+                <button type="button" id="btn_clear" class="btn btn_clear">clear</button>
+            </div>
+        </div>
+        <div class="container-calculator__block container-calculator__block--bottom">
+            <h2 class="calculation" id="calculation">0</h2>
+            <h2>Result : <span class="result" id="result">0</span></h2>
+        </div>
+    </div>
+</body>
+</html>
